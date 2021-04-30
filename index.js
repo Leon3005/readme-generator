@@ -1,5 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./generateMarkdown");
 
 // TODO: Include packages needed for this application
 
@@ -32,12 +33,12 @@ const writeToReadMe = (answers) => {
       console.log("success!");
     }
   };
-  fs.writeFile("README2.md", `## ${answers}`, "utf8", callback);
+  fs.writeFile("README2.md", generateMarkdown(answers), "utf8", callback);
 };
 // TODO: Create a function to initialize app
 const init = async () => {
   const answers = await getResponses(questions);
-  writeToReadMe(answers.title);
+  writeToReadMe(answers);
   console.log(answers);
 };
 
