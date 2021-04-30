@@ -24,10 +24,10 @@ const writeToReadMe = (answers) => {
     if (err) {
       console.log(err);
     } else {
-      console.log("success");
+      console.log("success!");
     }
   };
-  fs.writeFile("README2.md", `##${answers}`, "utf8", callback);
+  fs.writeFile("README2.md", `## ${answers}`, "utf8", callback);
 };
 // TODO: Create a function to initialize app
 const init = async () => {
