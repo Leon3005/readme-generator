@@ -10,6 +10,11 @@ const questions = [
     message: "What is the title of your Application?",
     name: "title",
   },
+  {
+    type: "input",
+    message: "How is your app used?",
+    name: "description",
+  },
 ];
 
 //get response from questions
