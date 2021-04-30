@@ -19,11 +19,20 @@ const getResponses = async (questions) => {
 };
 
 // TODO: Create a function to write README file
-const writeToFile = (fileName, data) => {};
-
+const writeToReadMe = (answers) => {
+  const callback = (err) => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log("success");
+    }
+  };
+  fs.writeFile("README2.md", JSON.stringify(answers), callback);
+};
 // TODO: Create a function to initialize app
 const init = async () => {
   const answers = await getResponses(questions);
+  writeToReadMe(answers);
   console.log(answers);
 };
 
