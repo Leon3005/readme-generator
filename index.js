@@ -27,12 +27,12 @@ const writeToReadMe = (answers) => {
       console.log("success");
     }
   };
-  fs.writeFile("README2.md", JSON.stringify(answers), callback);
+  fs.writeFile("README2.md", answers, "utf8", callback);
 };
 // TODO: Create a function to initialize app
 const init = async () => {
   const answers = await getResponses(questions);
-  writeToReadMe(answers);
+  writeToReadMe(answers.title);
   console.log(answers);
 };
 
