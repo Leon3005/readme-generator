@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require("fs");
 
 // TODO: Include packages needed for this application
 
@@ -11,11 +12,19 @@ const questions = [
   },
 ];
 
+//get response from questions
+const getRespones = async (questions) => {
+  const answers = await inquirer.prompt(questions);
+  return answers;
+};
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const writeToFile = (fileName, data) => {};
 
 // TODO: Create a function to initialize app
-function init() {}
+const init = async (questions) => {
+  console.log(questions);
+};
 
 // Function call to initialize app
-init();
+init(questions);
