@@ -8,12 +8,12 @@ const questions = [
   {
     type: "input",
     message: "What is the title of your Application?",
-    title: "title",
+    name: "title",
   },
 ];
 
 //get response from questions
-const getRespones = async (questions) => {
+const getResponses = async (questions) => {
   const answers = await inquirer.prompt(questions);
   return answers;
 };
@@ -22,8 +22,9 @@ const getRespones = async (questions) => {
 const writeToFile = (fileName, data) => {};
 
 // TODO: Create a function to initialize app
-const init = async (questions) => {
-  console.log(questions);
+const init = async () => {
+  const answers = await getResponses(questions);
+  console.log(answers);
 };
 
 // Function call to initialize app
