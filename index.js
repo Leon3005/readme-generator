@@ -16,6 +16,16 @@ const questions = [
     message: "How is your app used?",
     name: "description",
   },
+  {
+    type: "input",
+    message: "How will users install your app?",
+    name: "install",
+  },
+  {
+    type: "input",
+    message: "How do users use your app?",
+    name: "usage",
+  },
 ];
 
 //get response from questions
