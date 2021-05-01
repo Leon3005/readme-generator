@@ -1,17 +1,17 @@
 
-# Samplify
-![Badge](https://img.shields.io/static/v1?label=npm&message=Inquirer&color=Blue)
+# d
+![Badge](https://img.shields.io/static/v1?label=f&message=g&color=Red)
 ## Description
-Find samples
+r
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-npm install inquirer
+sf
 ## Usage
-Search bar
+
 ## License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 ---
@@ -20,7 +20,7 @@ The last section of a high-quality README file is the license. This lets other d
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 ## Features
-Find samples
+f
 ## Screenshots
 ![Screenshot](./assets/images/bladerunner.jpg)
 ## Credits

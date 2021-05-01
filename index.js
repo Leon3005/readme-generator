@@ -70,7 +70,7 @@ const writeToReadMe = (answers) => {
     }
   };
   fs.writeFile(
-    "./output/README2.md",
+    "GeneratedREADME.md",
     generateMarkdown(answers),
     "utf8",
     callback
