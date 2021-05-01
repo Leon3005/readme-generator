@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./generateMarkdown");
+const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Include packages needed for this application
 
@@ -47,6 +47,11 @@ const questions = [
     message: "Enter the features of your app:",
     name: "features",
   },
+  {
+    type: "input",
+    message: "Enter the file path of a screenshot of the app:",
+    name: "screenshot",
+  },
 ];
 
 //get response from questions
@@ -64,7 +69,12 @@ const writeToReadMe = (answers) => {
       console.log("success!");
     }
   };
-  fs.writeFile("README2.md", generateMarkdown(answers), "utf8", callback);
+  fs.writeFile(
+    "./output/README2.md",
+    generateMarkdown(answers),
+    "utf8",
+    callback
+  );
 };
 // TODO: Create a function to initialize app
 const init = async () => {
