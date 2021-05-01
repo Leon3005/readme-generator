@@ -1,17 +1,17 @@
 
-# d
-![Badge](https://img.shields.io/static/v1?label=f&message=g&color=Red)
+# Leon
+![Badge](https://img.shields.io/static/v1?label=npm&message=inquirer&color=Red)
 ## Description
-r
+f
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-sf
+f
 ## Usage
-
+f
 ## License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 ---
@@ -23,5 +23,7 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 f
 ## Screenshots
 ![Screenshot](./assets/images/bladerunner.jpg)
+## License
+![License](https://img.shields.io/npm/l/inquirer)
 ## Credits
 ## Tests

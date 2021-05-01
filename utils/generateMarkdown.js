@@ -39,6 +39,8 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 ${data.features}
 ## Screenshots
 ![Screenshot](${data.screenshot})
+## License
+![License](https://img.shields.io/npm/l/${data.badgePackage})
 ## Credits
 ## Tests
 `;
