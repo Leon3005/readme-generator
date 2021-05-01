@@ -13,6 +13,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "Enter a package that was used:",
+    name: "dataPackage",
+  },
+  {
+    type: "input",
     message: "Give a short description of your app:",
     name: "description",
   },
@@ -23,8 +28,13 @@ const questions = [
   },
   {
     type: "input",
-    message: "How do users use your app?",
+    message: "How will users use your app?",
     name: "usage",
+  },
+  {
+    type: "input",
+    message: "Enter the features of your app:",
+    name: "features",
   },
 ];
 

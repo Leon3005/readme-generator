@@ -1,16 +1,17 @@
 
-# Test App
+# Samplify
+https://img.shields.io/npm/v/undefined
 ## Description
-Testing an app
+Find samples for songs
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
-Inquirer
+npm install inquirer
 ## Usage
-Node
+use the search bar
 ## License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 ---
@@ -19,6 +20,6 @@ The last section of a high-quality README file is the license. This lets other d
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 ## Features
-If your project has a lot of features, list them here.
+- Find Samples
 ## Credits
 ## Tests
