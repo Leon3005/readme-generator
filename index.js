@@ -14,7 +14,7 @@ const questions = [
   {
     type: "input",
     message: "Enter a package that was used:",
-    name: "dataPackage",
+    name: "packageBadge",
   },
   {
     type: "input",

@@ -1,8 +1,8 @@
 
 # Samplify
-https://img.shields.io/npm/v/undefined
+![Badge](https://img.shields.io/npm/v/Inquirer)
 ## Description
-Find samples for songs
+Find samples
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,7 +11,7 @@ Find samples for songs
 ## Installation
 npm install inquirer
 ## Usage
-use the search bar
+Search bar
 ## License
 The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
 ---
@@ -20,6 +20,6 @@ The last section of a high-quality README file is the license. This lets other d
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
 ## Features
-- Find Samples
+- Find samples
 ## Credits
 ## Tests
