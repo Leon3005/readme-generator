@@ -13,8 +13,19 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter a package that was used:",
-    name: "packageBadge",
+    message: "Enter a label for your badge:",
+    name: "badgeLabel",
+  },
+  {
+    type: "input",
+    message: "Enter a message for your badge:",
+    name: "badgePackage",
+  },
+  {
+    type: "list",
+    message: "Choose a colour for your badge:",
+    name: "badgeColour",
+    choices: ["Red", "Green", "Blue"],
   },
   {
     type: "input",

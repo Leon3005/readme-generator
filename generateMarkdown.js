@@ -16,7 +16,7 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
 # ${data.title}
-![Badge](https://img.shields.io/npm/v/${data.packageBadge})
+![Badge](https://img.shields.io/static/v1?label=${data.badgeLabel}&message=${data.badgePackage}&color=${data.badgeColour})
 ## Description
 ${data.description}
 ## Table of Contents (Optional)
