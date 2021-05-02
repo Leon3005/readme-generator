@@ -42,6 +42,8 @@ ${description}
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
+- [Features](#features)
+- [Screenshots](#screenshots)
 - [Credits](#credits)
 - [License](#license)
 ## Installation
