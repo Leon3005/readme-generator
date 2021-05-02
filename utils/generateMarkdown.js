@@ -2,25 +2,17 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license === "MIT") {
-    return "https://shields.io/badge/license-MIT-green";
+    return "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)";
   } else if (license === "APACHE_2.0") {
-    return "https://shields.io/badge/license-Apache-blue";
+    return "[![License](https://img.shields.io/badge/License-APACHE%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)";
   } else if (license === "GPL_3.0") {
-    return "https://shields.io/badge/license-GPL-blue";
+    return "[![License](https://img.shields.io/badge/License-GPL%203.0-purple.svg)](https://opensource.org/licenses/GPL-3.0)";
   } else if (license === "BSD_3") {
-    return "https://shields.io/badge/license-BSD-green";
+    return "[![License](https://img.shields.io/badge/License-BSD%203-black.svg)](https://opensource.org/licenses/BSD-3-Clause)";
   } else {
     return "";
   }
 }
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -36,17 +28,18 @@ function generateMarkdown(data) {
     screenshot,
     gitHub,
     license,
+    credits,
+    tests,
   } = data;
-  renderLicenseBadge(license);
   console.log(license);
   return `
 # ${title}
-![Link to deployed GitHub App](${gitHub})
+[Link to deployed GitHub App](${gitHub})
 ## Badge
 ![Badge](https://img.shields.io/static/v1?label=${badgeLabel}&message=${badgePackage}&color=${badgeColour})
 ## Description
 ${description}
-## Table of Contents (Optional)
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
@@ -58,11 +51,13 @@ ${usage}
 ## Features
 ${features}
 ## Screenshots
-![Screenshot](${screenshot})
+![Screenshot](./assets/images/${screenshot})
 ## License
-![License](${license})
+${renderLicenseBadge(license)}
 ## Credits
+${credits}
 ## Tests
+${tests}
 `;
 }
 

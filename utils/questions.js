@@ -48,7 +48,8 @@ const questions = [
   },
   {
     type: "input",
-    message: "Enter the file path of a screenshot of the app:",
+    message:
+      "Enter the file name and extension of the screenshot of the app (in the ./assets/images folder)",
     name: "screenshot",
   },
   {
@@ -56,6 +57,16 @@ const questions = [
     message: "Please choose a license:",
     name: "license",
     choices: ["MIT", "APACHE_2.0", "GPL_3.0", "BSD_3", "None"],
+  },
+  {
+    type: "input",
+    message: "Enter credits for your app:",
+    name: "credits",
+  },
+  {
+    type: "input",
+    message: "What tests can be run?",
+    name: "tests",
   },
 ];
 
