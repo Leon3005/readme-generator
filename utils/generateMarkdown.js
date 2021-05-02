@@ -24,9 +24,11 @@ function generateMarkdown(data) {
     usage,
     features,
     screenshot,
+    gitHub,
   } = data;
   return `
 # ${title}
+![Link to deployed GitHub App](${gitHub})
 ## Badge
 ![Badge](https://img.shields.io/static/v1?label=${badgeLabel}&message=${badgePackage}&color=${badgeColour})
 ## Description

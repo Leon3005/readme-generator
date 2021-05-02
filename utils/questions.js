@@ -7,6 +7,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "Enter the link for your deployed GitHub app:",
+    name: "gitHub",
+  },
+  {
+    type: "input",
     message: "Enter a label for your badge:",
     name: "badgeLabel",
   },
