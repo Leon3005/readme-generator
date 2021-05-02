@@ -12,10 +12,6 @@ The README generator prompts you with multiple questions that allows you to ente
 
 ## Table of Contents
 
-- [README Generator](#readme-generator)
-  - [Badge](#badge)
-  - [Description](#description)
-  - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
   - [Usage](#usage)
   - [Features](#features)
@@ -23,6 +19,7 @@ The README generator prompts you with multiple questions that allows you to ente
   - [License](#license)
   - [Credits](#credits)
   - [Tests](#tests)
+  - [Contact](#contact)
 
 ## Installation
 
@@ -51,3 +48,6 @@ Leon Wheeler
 ## Tests
 
 No tests needed.
+
+## Contact
+For any issues, please contact [my email](mailto:leonwheeler08@gmail.com) 😀
