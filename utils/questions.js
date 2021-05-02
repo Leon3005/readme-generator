@@ -51,6 +51,17 @@ const questions = [
     message: "Enter the file path of a screenshot of the app:",
     name: "screenshot",
   },
+  {
+    type: "input",
+    message:
+      "For an auto generated license badge, please enter your GitHub username:",
+    name: "gitHubUser",
+  },
+  {
+    type: "input",
+    message: "And repository name:",
+    name: "gitHubRepo",
+  },
 ];
 
 module.exports = questions;

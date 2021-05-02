@@ -47,7 +47,7 @@ ${features}
 ## Screenshots
 ![Screenshot](${screenshot})
 ## License
-![License](https://img.shields.io/npm/l/${badgePackage})
+![License](https://img.shields.io/github/license/${gitHubUser}/${gitHubRepo}})
 ## Credits
 ## Tests
 `;
