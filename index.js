@@ -20,12 +20,7 @@ const writeToReadMe = (answers) => {
       console.log("success!");
     }
   };
-  fs.writeFile(
-    "GeneratedREADME.md",
-    generateMarkdown(answers),
-    "utf8",
-    callback
-  );
+  fs.writeFile("README.md", generateMarkdown(answers), "utf8", callback);
 };
 // TODO: Create a function to initialize app
 const init = async () => {
