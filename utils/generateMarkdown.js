@@ -30,6 +30,7 @@ function generateMarkdown(data) {
     license,
     credits,
     tests,
+    email,
   } = data;
   return `
 # ${title}
@@ -59,6 +60,8 @@ ${renderLicenseBadge(license)}
 ${credits}
 ## Tests
 ${tests}
+## Contact
+For any issues, please contact [my email](mailto:${email}) 😀
 `;
 }
 

@@ -68,6 +68,11 @@ const questions = [
     message: "What tests can be run?",
     name: "tests",
   },
+  {
+    type: "input",
+    message: "Please enter your email for users to report bugs:",
+    name: "email",
+  },
 ];
 
 // Exporting the questions array to be used in another file.
