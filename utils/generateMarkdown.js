@@ -1,7 +1,17 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
-  return license;
+  if (license === "MIT") {
+    return "https://shields.io/badge/license-MIT-green";
+  } else if (license === "APACHE_2.0") {
+    return "https://shields.io/badge/license-Apache-blue";
+  } else if (license === "GPL_3.0") {
+    return "https://shields.io/badge/license-GPL-blue";
+  } else if (license === "BSD_3") {
+    return "https://shields.io/badge/license-BSD-green";
+  } else {
+    return "";
+  }
 }
 
 // TODO: Create a function that returns the license link
@@ -25,9 +35,10 @@ function generateMarkdown(data) {
     features,
     screenshot,
     gitHub,
-    gitHubRepo,
-    gitHubUser,
+    license,
   } = data;
+  renderLicenseBadge(license);
+  console.log(license);
   return `
 # ${title}
 ![Link to deployed GitHub App](${gitHub})
@@ -49,7 +60,7 @@ ${features}
 ## Screenshots
 ![Screenshot](${screenshot})
 ## License
-![License](https://img.shields.io/github/license/${gitHubUser}/${gitHubRepo}})
+![License](${license})
 ## Credits
 ## Tests
 `;

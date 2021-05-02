@@ -52,15 +52,10 @@ const questions = [
     name: "screenshot",
   },
   {
-    type: "input",
-    message:
-      "For an auto generated license badge, please enter your GitHub username:",
-    name: "gitHubUser",
-  },
-  {
-    type: "input",
-    message: "And repository name:",
-    name: "gitHubRepo",
+    type: "list",
+    message: "Please choose a license:",
+    name: "license",
+    choices: ["MIT", "APACHE_2.0", "GPL_3.0", "BSD_3", "None"],
   },
 ];
 

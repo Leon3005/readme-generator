@@ -1,49 +1,24 @@
-# d
 
-[Link to deployed GitHub App](d)
-
+# l
+![Link to deployed GitHub App](l)
 ## Badge
-
-![Badge](https://img.shields.io/static/v1?label=d&message=d&color=Red)
-
+![Badge](https://img.shields.io/static/v1?label=l&message=l&color=Red)
 ## Description
-
-d
-
+l
 ## Table of Contents (Optional)
-
-- [d](#d)
-  - [Badge](#badge)
-  - [Description](#description)
-  - [Table of Contents (Optional)](#table-of-contents-optional)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Features](#features)
-  - [Screenshots](#screenshots)
-  - [License](#license)
-  - [Credits](#credits)
-  - [Tests](#tests)
-
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 ## Installation
-
-d
-
+l
 ## Usage
-
-d
-
+l
 ## Features
-
-d
-
+l
 ## Screenshots
-
-![Screenshot](./assets/images/bladerunner.jpg)
-
+![Screenshot]()
 ## License
-
-![License](https://img.shields.io/github/license/Leon3005/readme-generator})
-
+![License](MIT)
 ## Credits
-
 ## Tests
