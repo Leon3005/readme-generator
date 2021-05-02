@@ -1,4 +1,4 @@
-// TODO: Create an array of questions for user input
+// Array of questions
 const questions = [
   {
     type: "input",
@@ -70,4 +70,5 @@ const questions = [
   },
 ];
 
+// Exporting the questions array to be used in another file.
 module.exports = questions;
