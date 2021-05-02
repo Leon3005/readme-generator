@@ -25,6 +25,8 @@ function generateMarkdown(data) {
     features,
     screenshot,
     gitHub,
+    gitHubRepo,
+    gitHubUser,
   } = data;
   return `
 # ${title}
