@@ -12,12 +12,17 @@ The README generator prompts you with multiple questions that allows you to ente
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Screenshots](#screenshots)
-- [Credits](#credits)
-- [License](#license)
+- [README Generator](#readme-generator)
+  - [Badge](#badge)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+  - [License](#license)
+  - [Credits](#credits)
+  - [Tests](#tests)
 
 ## Installation
 
@@ -33,7 +38,7 @@ Generate a README file with pre-defined markup.
 
 ## Screenshots
 
-![Screenshot](./assets/images/bladerunner.jpg)
+![Screenshot](./assets/images/screenshot.png)
 
 ## License
 
