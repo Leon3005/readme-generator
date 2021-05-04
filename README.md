@@ -27,7 +27,7 @@ Run 'npm install' and run 'node index.js'
 
 ## Usage
 
-Run 'node index'js' and answer the given prompts.
+Run 'node index.js' and answer the given prompts.
 
 ## Features
 
