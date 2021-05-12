@@ -45,6 +45,10 @@ Generate a README file with pre-defined markup.
 
 Leon Wheeler
 
+## Walkthrough Video
+
+https://drive.google.com/file/d/1GmF2FWaymVOkz6d93wDb4CQY5JxxayQ8/view?usp=sharing
+
 ## Tests
 
 No tests needed.
